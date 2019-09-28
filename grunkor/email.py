@@ -1,6 +1,7 @@
 import flask
 from grunkor import app
 from grunkor import insidan
+from grunkor import PREFIX
 
 @app.route(PREFIX + "/emails")
 def emails():
